@@ -12,5 +12,6 @@ function fuzzyMatch (driver, string){
 }
 
 function matchName(driver, string){ 
-    return driver.filter(match => match.name === string.name)
+    return driver.filter(record => record.name === string.name)
 }
+
